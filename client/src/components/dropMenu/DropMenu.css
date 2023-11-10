@@ -1,0 +1,55 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-button {
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #9796a8;
+}
+
+.menu-content {
+  position: absolute;
+  top: 100%; /* Поместит меню под кнопкой */
+  left: -290%;
+  z-index: 1; /* Чтобы меню оказалось поверх других элементов */
+  background-color: #fff;
+  width: 111px;
+  height: 81px;
+  border-radius: 10px;
+  display: flex; /* Отобразит меню при наведении на dropdown */
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  box-shadow: 0px 0px 8px 0px #0000001a;
+}
+
+.btn-edit {
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2e2e2e;
+  background-color: white;
+  margin: 3px;
+}
+
+.btn-delete {
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e07c7c;
+  background-color: white;
+  margin: 3px;
+}

@@ -1,0 +1,85 @@
+.oneTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 518px;
+  height: 46px;
+  top: 60px;
+  left: 34px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.taskTtile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.main-title {
+  margin-left: 10px;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  top: 12px;
+  left: 20px;
+  border-radius: 5px;
+  border: 2px solid #585292;
+  background-color: #585292;
+  color: white;
+}
+
+.editTask {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 518px;
+  top: 60px;
+  left: 34px;
+  background-color: white;
+  /* margin: 10px; */
+  border-radius: 25px;
+}
+
+.editInput {
+  margin-left: 15px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  width: 410px;
+  height: 46px;
+  border-radius: 9999px;
+}
+
+.editBtn {
+  outline: none;
+  border: none;
+  width: 64px;
+  height: 36px;
+  border-radius: 999px;
+  background: #585292;
+  color: white;
+}
+
+.Checked {
+  position: relative;
+  background-color: #585292;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  padding: 5.17px, 3.04px, 3.96px, 3.75px;
+}
+
+.Checked img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

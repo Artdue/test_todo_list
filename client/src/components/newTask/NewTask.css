@@ -1,0 +1,29 @@
+.newTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 518px;
+  height: 46px;
+  top: 60px;
+  left: 34px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.inputTask {
+  margin-left: 15px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  width: 500px;
+  height: 46px;
+  top: 553px;
+  left: 381px;
+  border-radius: 9999px;
+}
+
+.saveBtn {
+  display: none;
+}
